@@ -1,0 +1,13 @@
+@import "abstracts/colors";
+
+html {
+  font-size: 10px;
+  background-color: $color-gray-100;
+}
+
+body {
+  font-size: 1.3rem;
+  overflow-y: scroll;
+  overflow-y: overlay;
+  background-color: transparent;
+}

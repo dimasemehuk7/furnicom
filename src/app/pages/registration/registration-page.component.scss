@@ -1,0 +1,43 @@
+@import "abstracts/colors";
+
+.registration-form-container {
+  margin-top: 10rem;
+  padding: 2rem;
+  background-color: $color-neutral;
+}
+
+.block-title {
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+  margin: 0 0 20px;
+  text-transform: uppercase;
+  background: #444444;
+  padding: 0 21px;
+}
+
+.title {
+  margin: 0;
+  line-height: 50px;
+  text-align: center;
+}
+
+.registration-link {
+  text-decoration: none;
+  font-size: 20px;
+  display: block;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 40px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 3px;
+  transition: all 0.3s ease-in;
+}
+
+.registration-links {
+  display: flex;
+}

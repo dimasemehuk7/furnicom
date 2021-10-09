@@ -1,0 +1,6 @@
+- Поправить форму аутентификации на странице login по примеру формы регистрации
+- Перенести настройки сервера с предыдущего проекта
+- Создать два endpoint (рутинга) по стороне сервера для POST api/login и POST api/register
+- Написать отправку данных форм аутентификации и регистрации на сервер.
+- Прочитать статью созданию аутентификации:
+  https://www.internet-technologies.ru/articles/autentifikaciya-v-prilozheniyah-node-js-s-pomoschyu-passport.html
