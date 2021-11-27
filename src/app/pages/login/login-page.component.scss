@@ -1,10 +1,18 @@
+@import "abstracts/colors";
+
+.login-form-container {
+  margin-top: 10rem;
+  padding: 2rem;
+  background-color: $color-neutral;
+}
+
 .block-title {
   font-weight: 700;
   font-size: 20px;
-  color: #fff;
+  color: $color-neutral;
   margin: 0 0 20px;
   text-transform: uppercase;
-  background: #444444;
+  background: $color-gray-400;
   padding: 0 21px;
 }
 
@@ -14,7 +22,7 @@
   text-align: center;
 }
 
-.log-in-link {
+.login-link {
   text-decoration: none;
   font-size: 20px;
   display: block;
@@ -24,12 +32,12 @@
   line-height: 40px;
   margin-right: 10px;
   margin-bottom: 10px;
-  background-color: #000;
-  color: #fff;
+  background-color: $color-gray-800;
+  color: $color-neutral;
   border-radius: 3px;
   transition: all 0.3s ease-in;
 }
 
-.log-in-links {
+.login-links {
   display: flex;
 }

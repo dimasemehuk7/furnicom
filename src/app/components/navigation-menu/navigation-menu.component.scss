@@ -1,0 +1,70 @@
+@import "abstracts/colors";
+@import "abstracts/mixins";
+
+$navigation-height: 5rem;
+
+.navigation {
+  width: 100%;
+  background: $color-gray-800;
+  height: $navigation-height;
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+    text-align-last: justify;
+    padding: 0;
+    align-items: center;
+  }
+
+  &__menu {
+    & > li {
+      @include backgroundHoverEffect((
+              color: $color-neutral,
+              background: $color-vegas-gold
+      ));
+
+      a.active {
+        color: $color-neutral;
+        background: $color-vegas-gold;
+      }
+    }
+  }
+}
+
+.menu {
+  height: 5rem;
+  color: $color-neutral;
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+
+  & > li > a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $color-neutral;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0 2rem;
+    height: $navigation-height;
+  }
+
+  & > li {
+    cursor: pointer;
+  }
+}
+
+.social-icons-menu {
+  justify-content: space-between;
+  color: $color-gray-400;
+  width: 17rem;
+
+  & > li {
+    padding: 0 1.1rem;
+  }
+}

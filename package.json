@@ -3,14 +3,14 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve --open",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
   "private": true,
   "dependencies": {
-    "@angular/animations": "~12.2.0",
+    "@angular/animations": "^12.2.13",
     "@angular/common": "~12.2.0",
     "@angular/compiler": "~12.2.0",
     "@angular/core": "~12.2.0",
@@ -18,7 +18,12 @@
     "@angular/platform-browser": "~12.2.0",
     "@angular/platform-browser-dynamic": "~12.2.0",
     "@angular/router": "~12.2.0",
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "bootstrap-icons": "^1.7.0",
+    "http-status-codes": "^2.1.4",
+    "ngx-toastr": "^14.2.1",
     "rxjs": "~6.6.0",
+    "toastr": "^2.1.4",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
   },

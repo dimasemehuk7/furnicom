@@ -1,21 +1,26 @@
-<div class="row">
-  <div class="col-xs-offset-3 col-xs-6">
+<div class="bg-block">
+  <img src="assets/images/bg-shop.jpg" class="bg-img">
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-offset-3 col-xs-6">
 
-    <div class="registration-form-container">
-      <div class="block-title"><h2 class="title">Registration</h2></div>
-      <div class="registration-links">
-        <a href="#" class="registration-link">f</a>
-        <a href="#" class="registration-link">G+</a>
+      <div class="registration-form-container">
+        <div class="block-title"><h2 class="title">Registration</h2></div>
+        <div class="registration-links">
+          <a href="#" class="registration-link">f</a>
+          <a href="#" class="registration-link">G+</a>
+        </div>
+        <form class="registration-form" [formGroup]="form" >
+          <input type="text" class="form-control input-log-in" formControlName="email" required placeholder="Email"><br>
+          <input type="text" class="form-control input-log-in" formControlName="username" required placeholder="User name" autocomplete="off"><br>
+          <input type="text" class="form-control input-log-in2" formControlName="password" required placeholder="Password" autocomplete="off"><br>
+          <input type="text" class="form-control input-log-in2" formControlName="confirmationPassword" required placeholder="Confirm password" autocomplete="off"><br>
+          <button type="submit" class="btn btn-default" (click)="register()">Register</button>
+          <button class="btn btn2">I have an account</button>
+        </form>
       </div>
-      <form class="registration-form">
-        <input type="text" class="form-control input-log-in" placeholder="Email"><br>
-        <input type="text" class="form-control input-log-in" placeholder="User name" autocomplete="off"><br>
-        <input type="text" class="form-control input-log-in2" placeholder="Password" autocomplete="off"><br>
-        <input type="text" class="form-control input-log-in2" placeholder="Confirm password" autocomplete="off"><br>
-        <button type="submit" class="btn btn-default">Register</button>
-        <button class="btn btn2">I have an account</button>
-      </form>
-    </div>
 
+    </div>
   </div>
 </div>

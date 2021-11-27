@@ -1,0 +1,19 @@
+@import "abstracts/colors";
+
+.header {
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.cart {
+  height: 10rem;
+  background: $color-vegas-gold;
+  text-align: center;
+  color: $color-neutral;
+  width: 17rem;
+  padding-bottom: 0.5rem;
+  padding-top: 1rem;
+}

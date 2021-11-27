@@ -1,0 +1,31 @@
+@mixin backgroundHoverEffect($params) {
+  transition: 0.2s ease;
+
+  &:hover {
+    color: map-get($params, 'color');
+    background-color: map-get($params, 'background');
+  }
+}
+
+@mixin heartHoverEffect() {
+  background-image: url("/assets/images/bg_general.png");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: -1785px;
+
+  &:hover {
+    background-position-y: -1754px;
+  }
+}
+
+@mixin compareHoverEffect() {
+  background-image: url("/assets/images/bg_general.png");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: -1617px;
+
+  &:hover {
+    background-position-y: -1587px;
+  }
+}
+
